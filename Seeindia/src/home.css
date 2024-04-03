@@ -1,0 +1,12 @@
+.product{
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 80vh;
+  
+}
+
+.fh1{
+    max-width: 300%; 
+    max-height: 300%;
+}

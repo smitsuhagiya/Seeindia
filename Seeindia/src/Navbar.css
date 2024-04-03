@@ -1,0 +1,179 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fcfafa;
+    color: #fcfafa;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  }
+  
+  .search-icon {
+    color: #D9D9D9;
+    cursor: pointer;
+  }
+
+
+  .account {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .like {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .cart {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .navbar-link {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .navbar-link span {
+    margin-left: 8px;
+    padding: 2px 6px;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 16px;
+  }
+
+  /* hii */
+  
+  /* .category-link {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  } */ 
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 32px;
+    margin-right: 16px;
+  }
+  
+  .search-bar {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 4px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+  
+  .account,
+  .like,
+  .cart {
+    height: 60px;
+    width: 60px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .category-link {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+
+
+  
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

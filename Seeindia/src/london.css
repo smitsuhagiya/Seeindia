@@ -1,0 +1,56 @@
+.product {
+    justify-content: center;
+  }
+  .product-list{
+    display: flex;
+  }
+  
+  /* Style for each diamond item */
+  .london-item {
+    list-style-type: none;
+    margin: 12px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Style for the diamond image */
+  .london-item img {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    align-items: center;
+    
+  }
+  
+  /* Style for the like button */
+  
+  
+  
+  /* Style for the add to cart button */
+  .add-to-cart {
+    display: block;
+    margin-top: 10px;
+    background-color: #cc0d0d; /* Example color */
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 15px; /* Adjust the value as needed for the desired roundness */
+  }
+  
+  
+  /* Hover effect for add to cart button */
+  .add-to-cart:hover {
+    background-color: #020911; /* Darker shade of the button color */
+  }
+  
+  
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .images-grid img {
+    width: 100%;
+    height: auto;
+  }

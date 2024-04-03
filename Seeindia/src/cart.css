@@ -1,0 +1,7 @@
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px; /* This ensures the image is centered vertically */
+    text-align: center;
+  }

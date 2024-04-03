@@ -1,0 +1,65 @@
+.product {
+    justify-content: center;
+    margin-left:15px;
+  }
+  .product-list{
+    margin-left: 50px;
+    display: flex;
+  }
+  
+  .l {
+     margin-left: 10px;
+     height: 15px;
+     width: 15px; 
+  }
+  
+  /* Style for each diamond item */
+  .dubai-items{
+    list-style-type: none;
+    margin: 12px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Style for the diamond image */
+  .dubai-items img {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  /* Style for the like button */
+  
+  
+  
+  /* Style for the add to cart button */
+  .add-to-cart {
+    display: block;
+    margin-top: 10px;
+    background-color: #cc0d0d; /* Example color */
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 15px; /* Adjust the value as needed for the desired roundness */
+  }
+  
+  
+  /* Hover effect for add to cart button */
+  .add-to-cart:hover {
+    background-color: #020911; /* Darker shade of the button color */
+  }
+  
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
