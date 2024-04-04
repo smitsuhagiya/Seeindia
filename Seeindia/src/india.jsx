@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import r1 from "./image/IndiaMain.webp";
 import r2 from "./image/Agra.jpg";
@@ -62,8 +63,10 @@ const India = () => {
           </a>
           <h6>Agra</h6>
           <div className="price">
-            Rs. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite("Agra")}/>
+            Rs. 28,000
+            <br/>
+            <br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite("Agra")}/>
           </div>
           <button
             onClick={() => handleAddToCart("Agra")}
@@ -79,8 +82,10 @@ const India = () => {
           </a>
           <h6>Dwarka</h6>
           <div className="price">
-            Rs. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite("Dwarka")}/>
+            Rs. 10,000
+            <br/>
+            <br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite("Dwarka")}/>
           </div>
           <button
             onClick={() => handleAddToCart("Dwarka")}
@@ -96,8 +101,10 @@ const India = () => {
           </a>
           <h6>Kullu Manali</h6>
           <div className="price">
-            Rs. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite("Kullu Manali")}/>
+            Rs. 35,000
+            <br/>
+            <br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite("Kullu Manali")}/>
           </div>
           <button
             onClick={() => handleAddToCart("Kullu Manali")}
@@ -114,13 +121,13 @@ const India = () => {
           <h6>Thiruvananthpuram</h6>
           <div className="price">
             Rs. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite("Thiruvananthpuram")} />
+            <br/>
+            <br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite("Thiruvananthpuram")} />
           </div>
           <button
             onClick={() => handleAddToCart("Thiruvananthpuram")}
-            className="add-to-cart"
-          >
-            Add to Cart
+            className="add-to-cart">Add to Cart
           </button>
         </li>
       </div>

@@ -62,8 +62,8 @@ const Dubai = () => {
           </a>
           <h6>Dubai Fountain</h6>
           <div className="price">
-            Rs. 17,500
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('Dubai Fountain')} />
+            Rs. 17,500<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('Dubai Fountain')} />
           </div>
           <button onClick={() => handleAddToCart('Dubai Fountain')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -74,8 +74,8 @@ const Dubai = () => {
           </a>
           <h6>Dubai Frame</h6>
           <div className="price">
-            RS. 19,500
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('Dubai Frame')} />
+            RS. 19,500<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('Dubai Frame')} />
           </div>
           <button onClick={() => handleAddToCart('Dubai Frame')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -86,8 +86,8 @@ const Dubai = () => {
           </a>
           <h6>Dubai Sightseeing</h6>
           <div className="price">
-            RS. 25,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('Dubai Sightseeing')} />
+            RS. 25,000<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('Dubai Sightseeing')} />
           </div>
           <button onClick={() => handleAddToCart('Dubai Sightseeing')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -98,8 +98,8 @@ const Dubai = () => {
           </a>
           <h6>Burj Khalifa</h6>
           <div className="price">
-            Rs. 25,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('Burj Khalifa')} />
+            Rs. 25,000<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('Burj Khalifa')} />
           </div>
           <button onClick={() => handleAddToCart('Burj Khalifa')} className="add-to-cart">Add to Cart</button>
         </li>

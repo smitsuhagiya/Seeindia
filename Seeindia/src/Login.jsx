@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './login.css';
 
 
 const Login = () => {
@@ -20,12 +21,23 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      <input type="email"  className="form-control" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-      <input type="password" className="form-control" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-      <button onClick={handleLogin}>Login</button>
-    </div>
+    <form action="Login" method="post">
+        <div className="form-group">
+            <center><h2>Login</h2></center>
+          <label htmlFor="username">Username:</label>
+          <input type="email" id="email" name="username" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" className="form-control" required />
+        </div>
+        <button type="submit" className="btn btn-primary">Login</button>
+        <ul> 
+          <li>
+            <a className="signup" href="/Signup">Sign Up</a>
+          </li>
+        </ul>
+      </form>
   );
 };
 

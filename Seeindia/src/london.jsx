@@ -63,8 +63,8 @@ const London = () => {
           </a>
           <h6>London Eye</h6>
           <div className="price">
-            Rs. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('London Eye')} />
+            Rs. 30,000<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('London Eye')} />
           </div>
           <button onClick={() => handleAddToCart('London Eye')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -75,8 +75,8 @@ const London = () => {
           </a>
           <h6>Tower Bridge</h6>
           <div className="price">
-            RS. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('Tower Bridge')} />
+            RS. 30,000<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('Tower Bridge')} />
           </div>
           <button onClick={() => handleAddToCart('Tower Bridge')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -87,8 +87,8 @@ const London = () => {
           </a>
           <h6>British Museum</h6>
           <div className="price">
-            RS. 30,000
-            <img src={like} alt="like" className="like" onClick={() => handleAddToFavorite('British Museum')} />
+            RS. 30,000<br/><br/>
+            <img src={like} alt="like" className="l" onClick={() => handleAddToFavorite('British Museum')} />
           </div>
           <button onClick={() => handleAddToCart('British Museum')} className="add-to-cart">Add to Cart</button>
         </li>
@@ -98,7 +98,7 @@ const London = () => {
             <img src={n5} alt="Buckingham Palace" className="n5" />
           </a>
           <h6>Buckingham Palace</h6>
-          <div className="price">Rs. 30,000</div>
+          <div className="price">Rs. 30,000<br/><br/></div>
           <button onClick={() => handleAddToCart('Buckingham Palace')} className="add-to-cart">Add to Cart</button>
         </li>
       </div>
